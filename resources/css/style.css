@@ -168,7 +168,6 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    /*background-attachment: fixed;*/
 }
 
 .hero-text-box {
@@ -529,7 +528,6 @@ input[type='checkbox'] {
     height: 110vh;
     color: #fff;
     font-weight: 300;
-    background-attachment: fixed;
 }
 
 blockquote {
