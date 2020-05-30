@@ -2,7 +2,7 @@
 /* BIG TABLETS TO 1200PX: FROM 1024 TO 1200PX */
 /*--------------------------------------------------------------------------------------------*/
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) {
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
     .hero-text-box {
         width: 100%;
         padding: 0 2%;
@@ -15,7 +15,7 @@
 /* SMALL TABLETS TO BIG TABLETS: FROM 768 TO 1023PX */
 /*--------------------------------------------------------------------------------------------*/
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     body {font-size: 17px;}
     section {padding: 60px 0;}
     .logo {height: 110px;}
@@ -46,7 +46,7 @@
 /* SMALL PHONES TO SMALL TABLETS: FROM 481 TO 767PX */
 /*--------------------------------------------------------------------------------------------*/
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 767px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
     body {font-size: 18px;}
     section {padding: 30px 0;}
     .row, .hero-text-box {padding: 0 4%;}
@@ -146,7 +146,7 @@
 /* SMALL PHONES: FROM 0 TO 480PX */
 /*--------------------------------------------------------------------------------------------*/
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+@media only screen and (min-width: 0px) and (max-width: 480px) {
     body {font-size: 15px;}
         .lbl-toggle {
         font-size: 0.8rem;
