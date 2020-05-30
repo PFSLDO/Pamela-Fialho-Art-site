@@ -15,7 +15,7 @@ div {
 html,
 body {
     background-color: #fff;
-    color: #555;
+    color: #242424;
     font-family: 'Lato', sans-serif;
     font-weight: 200;
     font-size: 20px;
@@ -37,6 +37,7 @@ body {
 
 /*
 font grey: #555
+font dark grey: #242424
 Pink: #FF006E
 Darker pink: #bb0051
 */
@@ -60,6 +61,7 @@ h1,
 h2,
 h3 {
     text-transform: uppercase;
+    color: #555;
 }
 
 h1 {
@@ -209,7 +211,6 @@ header {
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
-    
 }
 
 .main-nav li a:link,
@@ -532,6 +533,10 @@ input[type='checkbox'] {
     height: 110vh;
     color: #fff;
     font-weight: 300;
+}
+
+.section-statements h2 {
+    color: #ebebeb;
 }
 
 blockquote {
