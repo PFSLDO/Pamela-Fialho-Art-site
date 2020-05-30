@@ -1,43 +1,45 @@
 /*--------------------------------------------------------------------------------------------*/
-/* SMALL PHONES: FROM 0 TO 480PX */
+/* BIG TABLETS TO 1200PX: FROM 1024 TO 1200PX */
 /*--------------------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 480px) {
-    body {font-size: 15px;}
-        .lbl-toggle {
-        font-size: 0.8rem;
-        padding: 1rem;
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
     }
-    .section-artist img {
-        height: 130px;
-        margin-right: 15px;  
-        margin-bottom: 60px;
-        margin-left: 5px;
+    .row {padding: 0 2%;}
+    blockquote {font-size: 85%;}
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/* SMALL TABLETS TO BIG TABLETS: FROM 768 TO 1023PX */
+/*--------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1023px) {
+    body {font-size: 17px;}
+    section {padding: 60px 0;}
+    .logo {height: 110px;}
+    .portfolio-photo img {height: 400px;}
+    .steps-box:first-child {margin-top: 100px;}
+    .section-artist img {height: 250px;}
+    .section-artist p {font-size: 90%;}
+    .location ion-icon {height: 45px;}
+    .p1 {padding-top: 10px;}
+    .p2 {padding-top: 20px;}
+    .p3 {padding-top: 0px;}
+    .location-box:first-child {padding-right: 3%;}
+    .section-statements {height: 100vh;}
+    blockquote {
+        line-height: 130%;
+        margin-top: 20px;
+        font-size: 90%;
     }
-    .section-artist a {
-        font-size: 80%;
-        padding-top: 60px;
-    }
-    .section-artist h2 {font-size: 110%;}
-    .section-artist p {padding-bottom: 15px;}
-    .map {
-        height: 300px;
-        margin-top: 30px;
-    }
-    .cell {width: 110px; padding-bottom: 10px;}
-    .section-contact a {padding-top: 12px;}
-    .contact {margin-bottom: 50px;}
-    .section-contact {padding-bottom: 8px;}
-    .contact ion-icon {
-        height: 35px;
-        width: 35px;
-        float: left;
-        margin-right: 10px;
-    }
-    .social-links {display: none;}
-    .footer-nav {display: none;}
-    footer {padding-top: 25px;}
-    .final3 {padding-bottom: 30px;}
+    blockquote:before {font-size: 300%;}
+    cite img {height: 40px;}
+    cite {font-size: 100%;}
+    .cell {width: 150px;}
+    .contact-box:last-child {margin-top: 78px;}
+    .contact ion-icon {height: 45px;}
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -141,45 +143,43 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
-/* SMALL TABLETS TO BIG TABLETS: FROM 768 TO 1023PX */
+/* SMALL PHONES: FROM 0 TO 480PX */
 /*--------------------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 1023px) {
-    body {font-size: 17px;}
-    section {padding: 60px 0;}
-    .logo {height: 110px;}
-    .portfolio-photo img {height: 400px;}
-    .steps-box:first-child {margin-top: 100px;}
-    .section-artist img {height: 250px;}
-    .section-artist p {font-size: 90%;}
-    .location ion-icon {height: 45px;}
-    .p1 {padding-top: 10px;}
-    .p2 {padding-top: 20px;}
-    .p3 {padding-top: 0px;}
-    .location-box:first-child {padding-right: 3%;}
-    .section-statements {height: 100vh;}
-    blockquote {
-        line-height: 130%;
-        margin-top: 20px;
-        font-size: 90%;
+@media only screen and (max-width: 480px) {
+    body {font-size: 15px;}
+        .lbl-toggle {
+        font-size: 0.8rem;
+        padding: 1rem;
     }
-    blockquote:before {font-size: 300%;}
-    cite img {height: 40px;}
-    cite {font-size: 100%;}
-    .cell {width: 150px;}
-    .contact-box:last-child {margin-top: 78px;}
-    .contact ion-icon {height: 45px;}
-}
-
-/*--------------------------------------------------------------------------------------------*/
-/* BIG TABLETS TO 1200PX: FROM 1024 TO 1200PX */
-/*--------------------------------------------------------------------------------------------*/
-
-@media only screen and (max-width: 1200px) {
-    .hero-text-box {
-        width: 100%;
-        padding: 0 2%;
+    .section-artist img {
+        height: 130px;
+        margin-right: 15px;  
+        margin-bottom: 60px;
+        margin-left: 5px;
     }
-    .row {padding: 0 2%;}
-    blockquote {font-size: 85%;}
+    .section-artist a {
+        font-size: 80%;
+        padding-top: 60px;
+    }
+    .section-artist h2 {font-size: 110%;}
+    .section-artist p {padding-bottom: 15px;}
+    .map {
+        height: 300px;
+        margin-top: 30px;
+    }
+    .cell {width: 110px; padding-bottom: 10px;}
+    .section-contact a {padding-top: 12px;}
+    .contact {margin-bottom: 50px;}
+    .section-contact {padding-bottom: 8px;}
+    .contact ion-icon {
+        height: 35px;
+        width: 35px;
+        float: left;
+        margin-right: 10px;
+    }
+    .social-links {display: none;}
+    .footer-nav {display: none;}
+    footer {padding-top: 25px;}
+    .final3 {padding-bottom: 30px;}
 }
