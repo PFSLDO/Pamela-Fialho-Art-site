@@ -81,8 +81,12 @@
     .logo {height: 100px;}
     h1 {font-size: 180%;}
     h2 {font-size: 120%;}
+    .section-corona .long-copy {
+        font-size: 110%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .portfolio-photo img {height: 250px;}
-    .steps div {padding: 10px;}
     .steps {margin-bottom: 10%;}
     .steps-box:first-child {
         text-align: center;
@@ -155,6 +159,13 @@
         font-size: 0.8rem;
         padding: 1rem;
     }
+    .section-corona .long-copy {
+        font-size: 110%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .portfolio-photo img {height: 200px;}
+    .steps div {padding: 10px;}
     .section-artist img {
         height: 130px;
         margin-right: 15px;  
