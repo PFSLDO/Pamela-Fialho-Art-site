@@ -440,13 +440,13 @@ input[type='checkbox'] {
 .pessoasecores h3,
 .pessoasecores p {
     margin-bottom: 0px;
-    text-align: center;
 }
 
 .pessoasecores h3 {
     font-size: 160%;
     padding-bottom: 40px;
     padding-top: 0px;
+    text-align: center;
 }
 
 .pessoasecores a:visited,
