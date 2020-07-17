@@ -10,6 +10,7 @@
     .row {padding: 0 2%;}
     blockquote {font-size: 85%;}
     .portfolio-photo img {height: 500px;}
+    .pessoasecores img {height: 350px;}
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -21,6 +22,7 @@
     section {padding: 60px 0;}
     .logo {height: 110px;}
     .portfolio-photo img {height: 400px;}
+    .pessoasecores img {height: 250px;}
     .steps-box:first-child {margin-top: 100px;}
     .steps div {padding: 7px;}
     .section-artist img {height: 250px;}
@@ -87,6 +89,15 @@
         padding-right: 20px;
     }
     .portfolio-photo img {height: 250px;}
+    .pessoasecores img {height: 180px;}
+    .pessoasecores .long-copy {
+        font-size: 90%;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .pessoasecores h3 {
+        font-size: 140%;
+    }
     .steps {margin-bottom: 10%;}
     .steps-box:first-child {
         text-align: center;
@@ -165,6 +176,15 @@
         padding-right: 20px;
     }
     .portfolio-photo img {height: 200px;}
+    .pessoasecores img {height: 150px;}
+    .pessoasecores .long-copy {
+        font-size: 100%;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .pessoasecores h3 {
+        font-size: 150%;
+    }
     .steps div {padding: 10px;}
     .section-artist img {
         height: 130px;
