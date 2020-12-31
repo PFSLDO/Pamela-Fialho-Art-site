@@ -91,7 +91,7 @@
         padding-right: 20px;
     }
     .portfolio-photo img {height: 250px;}
-    .informativo-photo img {height: 120px;}
+    .informativo-photo img {height: 90px;}
     .steps {margin-bottom: 10%;}
     .steps-box:first-child {
         text-align: center;
@@ -105,7 +105,7 @@
         margin-top: 0px;
     }
     .steps-box2:first-child {margin-top: 0px;}
-    .steps2 div {padding: 6px;}
+    .steps2 div {padding: 10px;}
     .chat {width: 165px;}
     .section-artist img {
         height: 200px;
@@ -127,7 +127,7 @@
     .p1 {padding-top: 18px;}
     .p2 {padding-top: 20px;}
     .p3 {padding-top: 10px;}
-    .section-statements {height: 180vh;}
+    .section-statements {height: 140vh;}
     blockquote {
         line-height: 140%;
         margin-top: 20px;
@@ -172,20 +172,12 @@
         padding: 1rem;
     }
     .section-corona .long-copy {
-        font-size: 110%;
+        font-size: 95%;
         padding-left: 20px;
         padding-right: 20px;
     }
     .portfolio-photo img {height: 200px;}
-    .pessoasecores img {height: 150px;}
-    .pessoasecores .long-copy {
-        font-size: 100%;
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-    .pessoasecores h3 {
-        font-size: 150%;
-    }
+    .informativo-photo img {height: 100px;}
     .steps div {padding: 10px;}
     .section-artist img {
         height: 130px;
@@ -203,6 +195,7 @@
         height: 300px;
         margin-top: 30px;
     }
+    .section-statements {height: 130vh;}
     .cell {width: 110px; padding-bottom: 10px;}
     .section-contact a {padding-top: 12px;}
     .contact {margin-bottom: 50px;}
