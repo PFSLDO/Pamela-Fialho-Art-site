@@ -22,9 +22,11 @@
     section {padding: 60px 0;}
     .logo {height: 110px;}
     .portfolio-photo img {height: 400px;}
-    .pessoasecores img {height: 250px;}
-    .steps-box:first-child {margin-top: 100px;}
+    .informativo-photo img {height: 200px;}
+    .steps-box:first-child {margin-top: 300px;}
     .steps div {padding: 7px;}
+    .steps-box2:last-child {margin-top: 120px;}
+    .steps2 div {padding: 7px;}
     .section-artist img {height: 250px;}
     .section-artist p {font-size: 90%;}
     .location ion-icon {height: 45px;}
@@ -32,7 +34,7 @@
     .p2 {padding-top: 20px;}
     .p3 {padding-top: 0px;}
     .location-box:first-child {padding-right: 3%;}
-    .section-statements {height: 100vh;}
+    .section-statements {height: 120vh;}
     blockquote {
         line-height: 130%;
         margin-top: 20px;
