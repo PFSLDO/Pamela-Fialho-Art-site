@@ -91,15 +91,7 @@
         padding-right: 20px;
     }
     .portfolio-photo img {height: 250px;}
-    .pessoasecores img {height: 180px;}
-    .pessoasecores .long-copy {
-        font-size: 90%;
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-    .pessoasecores h3 {
-        font-size: 140%;
-    }
+    .informativo-photo img {height: 120px;}
     .steps {margin-bottom: 10%;}
     .steps-box:first-child {
         text-align: center;
@@ -107,6 +99,13 @@
     }
     .steps-box:last-child {margin-top: 50px;}
     .steps div {padding: 6px;}
+    .steps2 {margin-bottom: 10%;}
+    .steps-box2:last-child {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .steps-box2:first-child {margin-top: 0px;}
+    .steps2 div {padding: 6px;}
     .chat {width: 165px;}
     .section-artist img {
         height: 200px;
@@ -128,7 +127,7 @@
     .p1 {padding-top: 18px;}
     .p2 {padding-top: 20px;}
     .p3 {padding-top: 10px;}
-    .section-statements {height: 120vh;}
+    .section-statements {height: 180vh;}
     blockquote {
         line-height: 140%;
         margin-top: 20px;
